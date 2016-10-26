@@ -1,0 +1,8 @@
+/* 
+  Localizable.strings
+  国际化_demo
+
+  Created by peng on 16/10/17.
+  Copyright © 2016年 peng. All rights reserved.
+*/
+"hello" = "hello";
