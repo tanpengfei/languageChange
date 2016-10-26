@@ -19,9 +19,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     NSString * str  = AnnetStr(@"hello",@"ddd");
-    self.hello.text = str;// [[PFLanguageTool shareInstance] locatizedStringForkey:@"hello" comment:nil];
-    // Do any additional setup after loading the view, typically from a nib.
-  
+    self.hello.text = str;
+    // [[PFLanguageTool shareInstance] locatizedStringForkey:@"hello" comment:nil];
     NSString * path = [[PFLanguageTool shareInstance].languageBundle pathForResource:@"lantext" ofType:@"plist"];
     NSDictionary* dic = [NSDictionary dictionaryWithContentsOfFile:path];
     if ([dic[@"people"] isKindOfClass:[NSString class]]) {
